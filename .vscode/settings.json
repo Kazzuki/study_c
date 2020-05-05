@@ -1,4 +1,11 @@
 {
+    //エディターで空白文字を表示する方法を制御します。'none'、'boundary' および 'all' が使用可能です。'boundary' オプションでは、単語間の単一スペースは表示されません。
+    "editor.renderWhitespace": "all",
+    //ファイルの末尾に自動的に改行を挿入する
+    "files.insertFinalNewline": true,
+    //空白文字を削除する
+    "files.trimTrailingWhitespace": true,
+
     "files.associations": {
         "__bit_reference": "cpp",
         "__config": "cpp",
